@@ -6,14 +6,14 @@ const test = QUnit.test;
 test('sync input to element', (expect) => {
     //Arrange
     const input = document.createElement('input');
-    const span = document.createElement('span');
     const expected = 'banana';
+    const span = document.createElement('span');
     input.value = expected;
     
     //Act 
     sync(input, span);
 
     //Expect
-    expect.equal(span.textContent, expected);
+    expect.equal(expected, span.textContent);
 });
 
