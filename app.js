@@ -42,6 +42,7 @@ input7.value = expected7;
 input8.value = expected8;
 input9.value = expected9;
 input10.value = expected10;
+
     
 // set event listeners to update state and DOM
 madlibButton.addEventListener('click', () => {

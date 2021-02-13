@@ -1,11 +1,14 @@
 .main {
+    margin-top: 30px;
     text-align: center;
     font-size: large;
     font-family:fantasy;
     background-color: pink;
 
 }
-
+.background {
+    background-color: pink;
+}
 .input {
     font-style:italic;
     font-family: cursive;
@@ -21,3 +24,9 @@
 }
 
 
+.class {
+    color:powderblue;
+    border-style:groove;
+    border-width: 5px;
+
+}
